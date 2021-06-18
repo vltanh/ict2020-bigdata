@@ -1,3 +1,3 @@
-hdfs dfs -mkdir -p /user/vltanh/quiz02
-hdfs dfs -put input /user/vltanh/quiz02
-hdfs dfs -put stop_words.txt /user/vltanh/quiz02
+hdfs dfs -mkdir -p $1
+hdfs dfs -put data/input $1
+hdfs dfs -put data/stop_words.txt $1
